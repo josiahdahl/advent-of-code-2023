@@ -23,8 +23,6 @@ fn first_last_number(line: &str) -> u32 {
         }
     }
 
-    println!("{} {}", first, second);
-
     if first == 10 {
         return 0;
     }
